@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="resources/css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="vendor/css/grid.css" />
+    <link rel="stylesheet" type="text/css" href="vendor/css/ionicons.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400"
+      rel="stylesheet"
+    />
+
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <title>MRHQ - Main</title>
+
+    <script src="resources/js/script.js"></script>
+
+    <script crossorigin src="resources/js/index.js"></script>
+    <!-- React -->
+    <script
+      crossorigin
+      src="https://unpkg.com/react@16/umd/react.development.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"
+    ></script>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <div class="row">
+          <img
+            src="resources/img/mrhq-whitelogo.png"
+            alt="Omnifood logo"
+            class="logo"
+          />
+          <img
+            src="resources/img/mrhq-whitelogo.png"
+            alt="Omnifood logo"
+            class="logo-black"
+          />
+        </div>
+        <div class="row">
+          <ul class="main-nav">
+            <li><a href="#">OUR STORY</a></li>
+            <li>
+              <a href="#">OUR PROGRAMMES</a>
+              <div class="dropdown-content">
+                <a href="#">Tech Accelerator</a>
+                <a href="#">Virtual Accelerator</a>
+              </div>
+            </li>
+            <li>
+              <a href="#">TESTIMONIALS</a>
+              <div class="dropdown-content">
+                <a href="#">Blog</a>
+              </div>
+            </li>
+            <li>
+              <a href="#">FUNDING OPTIONS</a>
+              <div class="dropdown-content">
+                <a href="#">Our Social Mission</a>
+                <a href="#">Payment</a>
+                <a href="#">Pay it forward</a>
+              </div>
+            </li>
+            <li>
+              <div class="search-box">
+                <input type="text" placeholder="Search..." class="input" />
+                <div class="btn">
+                  <i class="fa fa-search" aria-hidden="true"></i>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <section class="section-timer">
+      <div class="row">
+        <p id="demo"></p>
+      </div>
+    </section>
+    <section class="section-header">
+      <div class="row">
+        <div class="hero-text-box">
+          <h1>Launch your tech career in 14 weeks.</h1>
+          <br />
+          <h2>
+            Train and up-skill in real work environments<br />
+            with real clients and projects
+          </h2>
+          <a class="full-button" href="#">APPLY NOW</a>
+          <a class="ghost-button" href="#">FIND OUT MORE</a>
+        </div>
+      </div>
+    </section>
+    <section class="section-features">
+      <div class="row">
+        <h3>Join NZ's First Tech Career Accelerator!</h3>
+        <br />
+        <h4>
+          40+ candidates chose to launch their tech careers with us, will you?
+        </h4>
+      </div>
+      <div class="row">
+        <div class="col span-1-of-3 box">
+          <i class="ion-ios-people icon-big"></i>
+          <h5>1 in 3 candidates</h5>
+          <p>Received a work contract within 2 weeks of programme completion</p>
+        </div>
+        <div class="col span-1-of-3 box">
+          <i class="ion-ios-paper-outline icon-big"></i>
+          <h5>80% candidates</h5>
+          <p>Received a work contract within 2 weeks of programme completion</p>
+        </div>
+        <div class="col span-1-of-3 box">
+          <i class="ion-ribbon-b icon-big"></i>
+          <h5>98% candidates</h5>
+          <p>Got endorsed as hireable and work-ready by industry partners.</p>
+        </div>
+      </div>
+      <div class="row">
+        <a class="features-button" href="#">LAUNCH YOUR CAREER</a>
+      </div>
+    </section>
+    <section class="section-pathways">
+      <div class="row">
+        <h3>The Tech Accelerator Career</h3>
+        <br />
+        <h4>
+          Choose your desire pathway and get your foot in the door with the
+          Mission Ready HQ experience!
+        </h4>
+      </div>
+      <div class="row">
+        <div class="col span-1-of-4 box">
+          <div class="pathway-box">
+            <img src="resources/img/dev-icon.png" />
+            <h5>AI Developer</h5>
+          </div>
+        </div>
+        <div class="col span-1-of-4 box">
+          <div class="pathway-box">
+            <img src="resources/img/barchart-icon.png" />
+            <h5>Business Analyst</h5>
+          </div>
+        </div>
+        <div class="col span-1-of-4 box">
+          <div class="pathway-box">
+            <img src="resources/img/computer-icon.png" />
+            <h5>Data Analyst</h5>
+          </div>
+        </div>
+        <div class="col span-1-of-4 box">
+          <div class="pathway-box">
+            <img src="resources/img/paint-brush-icon.png" />
+            <h5>UX Designer</h5>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-programme">
+      <div class="row">
+        <h3>Get our programme brochure and learn more</h3>
+        <input
+          type="text"
+          placeholder="Your email address here. . ."
+          style="color: white"
+        />
+        <a class="programme-button" href="#">GET MY COPY</a>
+      </div>
+    </section>
+    <section class="section-testimonials">
+      <div class="row">
+        <h3>Why Mission Ready HQ?</h3>
+        <br />
+        <h4>
+          Heart it from past candidates and how they launched their tech career
+          with us.
+        </h4>
+      </div>
+      <div class="row">
+        <div class="col span-1-of-3 box">
+          <div class="testi-box">
+            <cite>
+              <img src="resources/img/customer-1.jpg" />
+              <h5>Shane Oli</h5>
+              Developer at ABC
+            </cite>
+            <blockquote>
+              It was an exciting journey that got me a job within 2 weeks of
+              completion!...
+            </blockquote>
+            <p><a href="#">Read Shane's Story</a></p>
+          </div>
+        </div>
+        <div class="col span-1-of-3 box">
+          <div class="testi-box">
+            <cite>
+              <img src="resources/img/customer-3.jpg" />
+              <h5>Owen Peterson</h5>
+              Business Analyst at CDE
+            </cite>
+            <blockquote>
+              It was an exciting journey that got me a job within 2 weeks of
+              completion!...
+            </blockquote>
+            <p><a href="#">Read Owen's Story</a></p>
+          </div>
+        </div>
+        <div class="col span-1-of-3 box">
+          <div class="testi-box">
+            <cite>
+              <img src="resources/img/customer-2.jpg" />
+              <h5>Sammy Smith</h5>
+              Data Analyst at MNO
+            </cite>
+            <blockquote>
+              It was an exciting journey that got me a job within 2 weeks of
+              completion!...
+            </blockquote>
+            <p><a href="#">Read Sammy's Story</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="row">
+        <div class="footer-nav">
+          <h4>Mission Ready HQ</h4>
+          <br />
+          Contact us at hello@missionreadyhq.com
+        </div>
+      </div>
+      <div class="row">
+        <p>Copyright &copy; 2019 / Mission Ready HQ / Auckland, NZ</p>
+      </div>
+    </footer>
+  </body>
+</html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<!-- Search Box-->
+<link
+  rel="stylesheet"
+  href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+  $(document).ready(function () {
+    $(".btn").click(function () {
+      $(".input").toggleClass("active").focus;
+      $(this).toggleClass("animate");
+      $(".input").val("");
+    });
+  });
+</script>
